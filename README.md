@@ -1,70 +1,55 @@
 # Freelance Earnings Calculator
 
-A simple web application that calculates weekly earnings for freelancers based on hours worked, hourly rate, overtime rate, tax rate, and applicable bonuses. Built using **HTML**, **Bootstrap**, and **JavaScript**.
+A responsive web app that calculates freelance earnings including overtime, tax, and bonuses. Built with **HTML**, **Bootstrap**, and **JavaScript**.  
 
 ---
 
-## **Table of Contents**
+## **Key Features**
 
-- [Demo](#demo)  
-- [Features](#features)  
-- [Technologies Used](#technologies-used)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Screenshots](#screenshots)  
-- [License](#license)  
-
----
-
-## **Demo**
-
-*(Optional: link to a live demo if hosted online)*
-![Demo images 1](images/ss1.png)
-![Demo image 2](images/ss2.png)
-![Demo image 3](images/ss3.png)
-
----
-
-## **Features**
-
-- Input fields for:  
-  - Freelancer Name  
-  - Hours Worked  
-  - Hourly Rate  
-  - Overtime Rate  
-  - Tax Rate  
-
-- Calculates:  
-  - Regular pay  
-  - Overtime pay  
-  - Gross pay  
-  - Tax paid  
-  - Net pay  
-  - Bonus based on hours worked  
-
-- Input validation:  
-  - Ensures all fields are filled  
-  - Checks for valid numbers (no negative hours or rates)  
-
-- Results displayed in:  
-  - Alert box  
-  - Browser console  
-
-- Form styled using **Bootstrap** for a responsive and clean layout.  
+- Input fields for: Name, Hours Worked, Hourly Rate, Overtime Rate, Tax Rate  
+- Calculates: Regular pay, Overtime pay, Gross pay, Tax paid, Net pay, Bonus  
+- Validates user input to prevent errors  
+- Displays results in a **user-friendly alert** and logs summary to the console  
+- Clean, responsive layout using **Bootstrap**  
 
 ---
 
 ## **Technologies Used**
 
 - HTML5  
-- CSS3 (via Bootstrap 5.3.2)  
-- JavaScript (ES6)  
+- CSS3 (Bootstrap 5.3.2)  
+- JavaScript (ES6+)  
 
 ---
 
-## **Installation**
+## **Screenshots**
 
-1. Clone the repository:
+**Form Input:**  
+![Form Input Screenshot](images/ss1.png)  
 
-```bash
-git clone https://github.com/buildinrythm/Freelance-Earnings-Calculator.git
+**Earnings Summary Alert:**  
+![Alert Screenshot](images/ss2.png)  
+
+**Console Output:**  
+![Console Screenshot](images/ss3.png)  
+
+---
+
+## **What I Learned**
+
+- How to **grab and validate form input** in JavaScript  
+- Using **event listeners** to trigger calculations  
+- Performing **conditional calculations** for overtime and bonuses  
+- **Formatting numbers** for currency output  
+- Applying **Bootstrap classes** to create a responsive and clean UI  
+- Understanding the difference between `const` and `let`  
+
+---
+
+## **Portfolio Highlight**
+
+This project showcases my ability to:  
+- Build interactive, user-driven web applications  
+- Apply **JavaScript logic** for real-world calculations  
+- Combine **front-end design and functionality** effectively  
+
